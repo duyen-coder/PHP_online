@@ -3,7 +3,7 @@
 	// Cách 1: Tìm Max theo kiểu duyệt mảng
 	$arr = array(1,4,2,6,9,100,45,8,20); 
 	$Max = $arr[0];
-	for ($i=0; $i<9 ; $i++) { 
+	for ($i=0; $i<count($arr) ; $i++) { 
 		if ($Max < $arr[$i])
 			$Max= $arr[$i];
 	}
