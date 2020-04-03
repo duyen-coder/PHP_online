@@ -11,7 +11,7 @@
 	print_r(array_reverse($arr));
 	echo "</pre>";
 	// Cách 2: Duyệt for từ cuối lên
-	for ($i=6; $i >=0 ; $i--) { 
+	for ($i=count($arr)-1; $i >=0 ; $i--) { 
 		echo "Phần tử thứ $i là $arr[$i] <br>";
 	}
 ?>
